@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pub Sub demo</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>Neven</h1>
+        <main>
+            <!-- list module interfaces will be loaded here -->
+        </main>
+
+        <aside>
+            <!-- stats interface and forms will be loaded here -->
+        </aside>
+
+        <footer>
+            <ol></ol>
+        </footer>
+
+        <script src="./index.js" type="module"></script>
+
+        <template id="actorListTemplate">
+            <div class="actor-container">
+                <ul></ul>
+            </div>
+        </template>
+        
+        <template id="movieListTemplate">
+            <div class="movie-container">
+                <ul></ul>
+            </div>
+        </template>
+
+        <template id="actorFormTemplate">
+            <form class="actor-form">
+                <input type="text" placeholder="Actor name">
+                <button>Add actor</button>
+            </form>
+        </template>
+        
+        <template id="movieFormTemplate">
+            <form class="movie-form">
+                <input type="text" placeholder="Movie name">
+                <button>Add movie</button>
+            </form>
+        </template>
+    </body>
+</html>
